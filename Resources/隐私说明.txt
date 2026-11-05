@@ -1,0 +1,6 @@
+译隙仅向 https://api.deepseek.com/v1/ 发起 API 请求。
+出题发送练习偏好与少量最近题目用于去重；评分发送本题原句、你的译文和练习点。
+API Key 保存在 macOS 钥匙串，不写入源码、记录、日志或导出文件。
+练习记录、草稿与待练缓存保存在本机 ~/Library/Application Support/TranslateGap/。
+本程序不安装后台常驻服务，不上传其他文件，无第三方统计 SDK。
+API 使用按照 DeepSeek 账户规则计费。退出程序后定时提示停止。
