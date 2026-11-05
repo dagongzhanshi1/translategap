@@ -1,0 +1,27 @@
+# Build products and local app bundles
+.build/
+dist/
+*.app/
+*.dSYM/
+*.zip
+
+# macOS / editors / Python
+.DS_Store
+.AppleDouble/
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+
+# Local credentials and runtime data; bundled Resources/*.json are intentional
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+progress.json
+progress.backup.json
+confusables.json
+confusables.backup.json
+state.json
+state-backup.json
